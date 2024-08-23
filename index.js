@@ -30,4 +30,4 @@ module.exports = client;
 });
 
 // login bot
-client.login(TOKEN);
+client.login("TOKEN");
