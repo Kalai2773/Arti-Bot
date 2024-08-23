@@ -1,10 +1,5 @@
 require("dotenv").config();
-const {
-  Client,
-  GatewayIntentBits,
-  Partials,
-  Collection
-} = require("discord.js");
+const { Client,GatewayIntentBits,Partials,Collection} = require("discord.js");
 const { TOKEN } = require("./settings/config");
 
 const client = new Client({
