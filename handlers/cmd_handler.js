@@ -1,10 +1,6 @@
 const { Client } = require("discord.js");
 const { readdirSync } = require("fs");
 
-/**
- *
- * @param {Client} client
- */
 module.exports = async (client) => {
   try {
     readdirSync("./Commands/Message").forEach((dir) => {
